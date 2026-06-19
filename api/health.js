@@ -1,0 +1,1 @@
+HEALTH ENDPOINT (TEST) TypeScript export const onRequestGet = async () => { return new Response( JSON.stringify({ status: "ok", service: "ocean-tide-drop-api" }), { headers: { "Content-Type": "application/json" } } ); }; 📍 URL becomes:
