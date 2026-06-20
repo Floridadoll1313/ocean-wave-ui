@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "github-remote": {
+      "httpUrl": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ACCESS_TOKEN"
+      }
+    },
+    "github-local": {
+      "command": "/Users/Floridadoll1313/code/github-mcp-server/cmd/github-mcp-server/github-mcp-server",
+      "args": ["stdio"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "ACCESS_TOKEN"
+      }
+    }
+  }
+}
